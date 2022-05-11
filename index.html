@@ -9,8 +9,26 @@
 
     <body>
         
-        <div class="section-topic">
-            <h1 id="beg-title">1991 - The Beginning....</h1>
+        <nav>
+            <div class="left-nav">
+                <h1>History of Web Design</h1>
+            </div>
+            
+            <div class="right-nav">
+                <ul>
+                    <li><a href="#first-website">First Website</a></li>
+                    <li><a href="#animations">Animations</a></li>
+                    <li><a href="#google">Google</a></li>
+                    <li><a href="ecommerce">Ecommerce</a></li>
+                    <li><a href="#social-media">Social Media</a></li>
+                    <li><a href="#mobile">Mobile</a></li>
+                    <li><a href="#templates">Templates</a></li>
+                    <li><a href="#future">Future</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="section-topic" id="first-website">
             <section class="left-to-right">
                 <div class="coding-section bg-white">
                     <div>
@@ -49,17 +67,16 @@
             </section>
         </div>
         
-        <div class="section-topic">
-            <h1 class="section-title">Animation Use</h1>
+        <div id="animations">
             <section class="right-to-left">
                 
-                <div class="bg-white" style="padding: 20px; border-radius: 20px">
-                    <div class="coding-section left-to-right">
+                <div style="border-radius: 20px">
+                    <div class="coding-section left-to-right-animations">
                         <img src="https://dailydot.s3.amazonaws.com/uploaded/images/original/2012/4/26/oliana_gif.gif" />
                         <img src="https://thefanatic.net/wp-content/uploads/2021/05/01-06-17Avion.gif" id="plane-gif"/>
                     </div>
 
-                    <div class="animations" style="margin-top: 20px">
+                    <div class="animations">
                         <div class="loader-3">
                             <div class="circle"></div>
                             <div class="circle"></div>
@@ -82,12 +99,7 @@
         </div>
         
         <div class="section-topic">
-            <h1 class="section-title">Google</h1>
             <section class="" id="google">
-                <div class="coding-section bg-white">
-                    <img src="imgs/google.png" />
-                </div>
-
                 <div class="text-section">
                     <div style="display: flex; flex-direction: row-reverse; justify-content: center; align-items: center">
                         <img src="https://www.smamarketing.net/hs-fs/hubfs/image_aae1ff6c9a3011e593250a85cd29cb07.png?width=480&name=image_aae1ff6c9a3011e593250a85cd29cb07.png" class="bg-white" style="padding: 20px; border-radius: 20px;"/>
@@ -102,8 +114,7 @@
             </section>
         </div>
         
-        <div class="section-topic">
-            <h1 class="section-title">The Online Economy</h1>
+        <div class="section-topic" id="ecommerce">
             <section class="right-to-left">
                 <div class="coding-section">
                     <img src="https://www.smamarketing.net/hs-fs/hubfs/image_c5e9e8209aa211e5a99a0a69a37bc93a.png?width=480&name=image_c5e9e8209aa211e5a99a0a69a37bc93a.png" />
@@ -120,8 +131,7 @@
             </section>
         </div>
         
-        <div class="section-topic">
-            <h1 class="section-title">Social Media</h1>
+        <div class="section-topic" id="social-media">
             <section class="left-to-right" id="social-media">
                 <div class="coding-section">
                     <img src="https://crackmagazine.net/wp-content/uploads/2019/03/MySpace-755x402.png" />
@@ -138,8 +148,7 @@
             </section>
         </div>
         
-        <div class="section-topic">
-            <h1 class="section-title">Mobile</h1>
+        <div class="section-topic" id="mobile">
             <section class="right-to-left">
                 <div class="coding-section">
                     <img src="https://quintagroup.com/services/web-design/responsive-website-design.png" id="smaller-img"/>
@@ -156,11 +165,18 @@
             </section>
         </div>
         
-        <div class="section-topic">
-            <h1 class="section-title">Website Builders</h1>
+        <div class="section-topic" id="templates">
             <section class="left-to-right">
-                    <img src="https://olittblog.b-cdn.net/wp-content/uploads/2021/10/Wix-1024x498.png"/>
-
+                
+                <div style="display:flex; flex-direction: column; align-items: center">
+                    <div>
+                        <img src="https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_8dfd1a922e19ef6ffc78a2bbe094855c/shopify.png" style="object-fit: contain; width: 300px"/>
+                        <img src="https://www.inmotionhosting.com/support/wp-content/uploads/2019/06/WordPress-logotype-alternative.png" style="object-fit: contain; width: 300px"/>
+                    </div>
+                    
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Wix.com_website_logo.svg/2560px-Wix.com_website_logo.svg.png" style="object-fit: contain; width: 300px"/>
+                </div>
+                
                 <div class="text-section">
                     <div>
                         <h1>2020 - Shopify, WordPress, Wix, etc....</h1>
@@ -172,17 +188,27 @@
             </section>
         </div>
         
-        <div class="section-topic">
-            <h1 class="section-title">Future of Web Design</h1>
+        <div class="section-topic" id="future">
             <section class="right-to-left">
                     <img src="https://openai.com/content/images/2021/01/2x-no-mark-1.jpg" style="object-fit: contain; height: 400px"/>
 
                 <div class="text-section">
                     <div>
-                        <h1>DALL-E</h1>
-                        <p>During the pandemic, many people needed to make an online website</p>
-                        <p>Made it easy for people to design or hire someone to design</p>
-                        <p>Design Templates</p>
+                        <h1>OpenAI: DALL-E</h1>
+                        <p>Type in a phrase to output an image</p>
+                        <p></p>
+                        <p>Could remove web design jobs</p>
+                    </div>
+                    
+                    <div style="margin-top: 50px; margin-right: 30px">
+                        <p>Text Phrase</p>
+                        <h3>An illustration of a baby daikon radish in a tutu walking a dog</h3>
+                        
+                        <div>
+                         <img src="https://cdn.openai.com/dall-e/v2/samples/anthropomorphism/091432009673a3a126fdec860933cdce_1.png" style="height: 100px; width: 100px"/>
+                         <img src="https://cdn.openai.com/dall-e/v2/samples/anthropomorphism/091432009673a3a126fdec860933cdce_2.png" style="height: 100px; width: 100px"/>
+                         <img src="https://cdn.openai.com/dall-e/v2/samples/anthropomorphism/091432009673a3a126fdec860933cdce_10.png" style="height: 100px; width: 100px"/>
+                        </div>
                     </div>
                 </div>
             </section>
